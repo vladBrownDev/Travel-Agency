@@ -1,0 +1,47 @@
+main {
+    padding-left:31px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.3vw;
+    line-height: 78px;
+    width: 100%;
+    height: 62%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-top: 50vh; */
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 72px;
+    
+
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:100px;
+}
+li:hover {
+   cursor: pointer; 
+
+}
+li {
+    color:#FFFFFF;
+    opacity: 0.6;
+}
+footer span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;  
+    text-transform: uppercase;
+}
+.activeLi {
+    opacity: 1;
+}

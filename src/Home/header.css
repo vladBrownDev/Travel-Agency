@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+header#home {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;   
+    color: #FFFFFF; 
+    
+}
+#leftSideHeader span {
+    margin-right: 2vw;
+}
+#rightSideHeader span {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 2vw;
+}
+#halfBurger {
+    width: 30px;
+    height: 8px;
+    content: "";
+    display: inline-block;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    
+}

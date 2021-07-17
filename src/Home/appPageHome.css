@@ -1,0 +1,73 @@
+* {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+body {
+    
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    
+}
+.mainPageShell {
+    padding-left: 13vw;
+    padding-right: 13vw;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+    background-image: url("/src/images/backpackBackground.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#mainCompShell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 44vh;
+    width:60%;
+}
+.pic2 {
+    background-image: url("../images/yachtbackground.jpg");
+    background-color:#f8f8f8;
+    opacity:1;
+    transition: all 1s;
+   -webkit-transition: all 1s;
+   
+}
+.pic1 {
+    background-image: url("/src/images/backpackBackground.jpg");
+    background-color:#f8f8f8;
+    opacity:1;
+    transition: all 1s;
+   -webkit-transition: all 1s;
+}
+.pic3 {
+    background-image: url("/src/images/ice.jpg");
+    background-color:#f8f8f8;
+    opacity:1;
+    transition: all 1s;
+   -webkit-transition: all 1s;
+}
+.pic4 {
+    background-image: url("/src/images/plane.jpg");
+    background-color:#f8f8f8;
+    opacity:1;
+    transition: all 1s;
+   -webkit-transition: all 1s;
+}
+.visible {
+    opacity: 1;
+}
+@media screen and (max-width: 1920px) {
+    body {
+        
+        background-repeat:initial
+    }
+}

@@ -1,0 +1,13 @@
+#downMain {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 78px;
+    color: #FFFFFF;
+    background: #111111;
+}
+#downShell {
+    /* padding-left: 13.3vw;
+    padding-right: 13.3vw; */
+    width: 100vw;
+}
